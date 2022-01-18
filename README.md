@@ -16,9 +16,9 @@ Here are some ideas to get you started:
 -->
 
 <p align="center">
-  ![Github Stats](https://github-readme-stats.vercel.app/api?username=rithins36&theme=radical)
-
-
-
+  
+![Github Stats](https://github-readme-stats.vercel.app/api?username=rithins36&theme=radical)
+  
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rithins36&layout=compact)](https://github.com/rithins36/github-readme-stats)
-  </p>
+  
+</p>
