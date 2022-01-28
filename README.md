@@ -28,9 +28,10 @@ Here are some ideas to get you started:
  
  
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=rithins36&theme=radical)
+  <br><br>
   
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rithins36&layout=compact)](https://github.com/rithins36/github-readme-stats)
- 
+  <br><br>
  
  ![Profile views](https://gpvc.arturio.dev/rithins36)
   
