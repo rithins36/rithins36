@@ -32,7 +32,16 @@ Here are some ideas to get you started:
   
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rithins36&layout=compact)](https://github.com/rithins36/github-readme-stats)
   <br><br>
- 
+  
+ <a href="#">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=rithins36"/>
+  </a> 
+  <br><br>
+  
+  <a href="#">
+    <img src="https://activity-graph.herokuapp.com/graph?username=aromalsanthosh&bg_color=000000&color=1cfdee&line=11ff00&point=08e7cd&area=true&hide_border=true"/>
+  </a>
+  <br><br>
  ![Profile views](https://gpvc.arturio.dev/rithins36)
   
 </div>
