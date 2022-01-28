@@ -22,7 +22,7 @@ Here are some ideas to get you started:
 
 
   
-## Languages and Tools
+### Languages and Tools
  C | C++ | Python | HTML | CSS | JS | Bootstrap | Reactjs | Github 
  <br><br>
  
