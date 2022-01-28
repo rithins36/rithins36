@@ -24,7 +24,7 @@ Here are some ideas to get you started:
   
 ### Languages and Tools
 
-C | C++ | Python | HTML | CSS | JS | Bootstrap | Reactjs | Github 
+# C | C++ | Python | HTML | CSS | JS | Bootstrap | Reactjs | Github 
  
  
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=rithins36&theme=radical)
