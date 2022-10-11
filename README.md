@@ -22,7 +22,7 @@ Here are some ideas to get you started:
    </p>
 
 ### Languages and Tools
- C | C++ | Python | HTML | CSS | JS | Bootstrap | Reactjs | Github 
+ | C | C++ | Python | HTML | CSS | JS | Bootstrap | Github | Reactjs | Nextjs |
  <br><br>
  
  
