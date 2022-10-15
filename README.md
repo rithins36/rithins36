@@ -44,7 +44,7 @@ Here are some ideas to get you started:
   <a href="#">
     <img src="https://activity-graph.herokuapp.com/graph?username=rithins36&bg_color=white&color=1cfdee&line=11ff00&point=08e7cd&area=true&hide_border=true"/>
   </a>
-  <br><br>
+  <br>
  
   
 ![Profile views](https://gpvc.arturio.dev/rithins36)
