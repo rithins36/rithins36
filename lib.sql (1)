@@ -1,0 +1,46 @@
+mysql> create database lib;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> use lib;
+Database changed
+mysql> create table member(member_id int primary key, name varchar(20),branch_code int,roll_no int,email varchar(30),date_of_join date, status varchar(30));
+Query OK, 0 rows affected (0.67 sec)
+
+mysql> create table publisher(publisher_id int primary key,name varchar(20),address varchar(30));
+Query OK, 0 rows affected (0.34 sec)
+
+mysql> create table language(lang_id int primary key,name varchar(20));
+Query OK, 0 rows affected (0.35 sec)
+
+mysql> create table book_return(issue_id int primary key,actual_date_of_return date,late_days int,late_fee int);
+Query OK, 0 rows affected (0.37 sec)
+
+mysql> create table author(author_id int primary key,name varchar(20),email varchar(30),phn_no int,status varchar(30));
+Query OK, 0 rows affected (0.36 sec)
+
+mysql> create table book(book_id int primary key,title varchar(20),lang_id int,MRP bigint,publisher_id int,published_date_of_join date,volume int,status varchar(20),foreign key(lang_id)references language(lang_id),foreign key(publisher_id)references publisher(publisher_id));
+Query OK, 0 rows affected (1.44 sec)
+mysql> DESC book;
++------------------------+-------------+------+-----+---------+-------+
+| Field                  | Type        | Null | Key | Default | Extra |
++------------------------+-------------+------+-----+---------+-------+
+| book_id                | int(11)     | NO   | PRI | NULL    |       |
+| title                  | varchar(20) | YES  |     | NULL    |       |
+| lang_id                | int(11)     | YES  | MUL | NULL    |       |
+| MRP                    | bigint(20)  | YES  |     | NULL    |       |
+| publisher_id           | int(11)     | YES  | MUL | NULL    |       |
+| published_date_of_join | date        | YES  |     | NULL    |       |
+| volume                 | int(11)     | YES  |     | NULL    |       |
+| status                 | varchar(20) | YES  |     | NULL    |       |
++------------------------+-------------+------+-----+---------+-------+
+8 rows in set (0.14 sec)
+
+mysql> create table late_fee_rule(from_day int,to_day int,amount int, primary key(from_day,to_day,amount));
+Query OK, 0 rows affected (0.38 sec)
+
+mysql> create table book_issue(issue_id int primary key,date_of_issue date,book_id int,member_id int,exp_date_of_return_date date,foreign key(book_id)references book(book_id),foreign key(member_id)references member(member_id));
+Query OK, 0 rows affected (0.50 sec)
+
+mysql> create table book_author(book_id int primary key,author_id int,foreign key(author_id)references author(author_id));
+Query OK, 0 rows affected (0.62 sec)
+
