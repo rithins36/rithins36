@@ -45,8 +45,6 @@ Here are some ideas to get you started:
     <img src="https://activity-graph.herokuapp.com/graph?username=rithins36&bg_color=white&color=1cfdee&line=11ff00&point=08e7cd&area=true&hide_border=true"/>
   </a>
   <br>
- 
-![Profile views](https://komarev.com/ghpvc/?username=rithins36&color=brightgreen)
   
 </div>
 
