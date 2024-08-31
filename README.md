@@ -46,8 +46,7 @@ Here are some ideas to get you started:
   </a>
   <br>
  
-  
-![Profile views](https://gpvc.arturio.dev/rithins36)
+![Profile views](https://komarev.com/ghpvc/?username=rithins36&color=brightgreen)
   
 </div>
 
